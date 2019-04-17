@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,8 +16,24 @@
 <link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="styles/contact_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
+<style type="text/css">
+	.footindex{
+		color: #ff4200 !important; 
+		font-size: 4em;
+		align-items: center;
+	}
+	.h3index{
+		color: #ffffff;
+	}
+	.lista{
+		color: #ff4200 !important; 
+		font-size: 2em;
+		align-items: center;
+	}
+</style>
 <body>
 
 <div class="super_container">
@@ -39,7 +56,7 @@
 				<li><a href="servicios.html"><span>Servicios</span></a></li>
 				<li><a href="promociones.html"><span>Promociones</span></a></li>
 				<li><a href="nosotros.html"><span>Nosotros</span></a></li>
-				<li class="active"><a href="contact.html"><span>Contacto</span></a></li>
+				<li class="active"><a href="contacto.html"><span>Contacto</span></a></li>
 			</ul>
 		</nav>
 
@@ -90,7 +107,7 @@
 				<div class="col-lg-6">
 					<div class="home_content">
 						<h1>Contactanos</h1>
-						<span>Escribenos mediante email ó WhatsApp para una cotización</span>
+						<span>Escribenos mediante e-mail ó WhatsApp para una cotización</span>
 					</div>
 				</div>
 			</div>
@@ -129,7 +146,7 @@
 									<textarea id="contact_form_message" class="text_field contact_form_message" name="message"  placeholder="Escribe un mensaje" rows="4" required data-error="Please, write us a message."></textarea>
 								</div>
 								<div>
-									<button id="contact_form_submit" type="submit" class="contact_submit_btn trans_300" value="Submit">
+									<button id="contact_form_submit" type="submit" class="contact_submit_btn trans_300" value="Enviar">
 										Enviar<img src="images/arrow_right.svg" alt="">
 									</button>
 								</div>
@@ -149,7 +166,7 @@
 							<div class="sidebar_contact_info">
 								<div class="sidebar_title">Direccion</div>
 								<ul>
-									<li><img src="images/marcador.png">  Rosa Trepadora 53, Molino de Rosas 
+									<li><i class="fas fa-map-marked-alt lista"></i>  Rosa Trepadora 53, Molino de Rosas 
 									Ciudad de México, CDMX</li>
 								</ul>
 							</div>
@@ -160,9 +177,9 @@
 							<div class="sidebar_contact_info">
 									<div class="sidebar_title">Mail, Whatsapp y Telefono</div>
 								<ul>
-									<li><img src="images/mail.png"> contact@cocoontemplate.com</li>
-									<li><img src="images/whats.png">  55 1298 6012</li>
-									<li><img src="images/tel.png">  5651 1785</li>
+									<li><i class="fas fa-envelope-open-text lista"></i>  serviciovelozmx@gmail.com</li>
+									<li><i class="fab fa-whatsapp lista"></i>  55 1298 6012</li>
+									<li><i class="fas fa-phone lista"></i>  5651 1785</li>
 								</ul>
 							</div>
 						</div>
@@ -193,7 +210,7 @@
 			
 			<div class="row">
 				<div class="col-lg-10 offset-lg-1 text-center contact_text">
-					<p>No dejes tu autoal final. Visita nuestro apartado de promociones y dale mantenimiento a tu automovil al mejor precio y con la mejor calidad.</p>
+					<p>No dejes tu auto al final, mantenlo siempre funcionando correctamente. Visita nuestro apartado de promociones y dale mantenimiento a tu automovil al mejor precio y con la mejor calidad.</p>
 					<div class="button contact_button">
 						<a href="contact.html" class="d-flex flex-row align-items-center justify-content-center">Promociones<img src="images/arrow_right.svg" alt=""></a>
 					</div>
@@ -201,8 +218,15 @@
 			</div>
 		</div>
 	</div>
+</div>
+</div>
 
-	<!-- Features -->
+
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<!-- Features -->
 
 	<div class="features">
 		<div class="container">
@@ -210,40 +234,50 @@
 
 				<!-- Features Item -->
 				<div class="col-lg-4 features_col">
-					<div class="features_item d-flex flex-column align-items-center justify-content-end text-center">
-						<div class="icon_container d-flex flex-column justify-content-end">
-							<img src="images/whatsL.png" alt="">
-						</div>
-						<h3>55 1298 6012 </h3>
-						<p></p>
-					</div>
+					<i class="fab fa-whatsapp footindex"></i>
+					<h3 class="h3index">55 1298 6012</h3>
 				</div>
-				
+
+		<!-- Features Item -->
+				<div class="col-lg-4 features_col">
+					<i class="fas fa-envelope-open-text footindex"></i>
+					<h3 class="h3index">serviciovelozmx@gmail.com</h3>
+				</div>
+
 				<!-- Features Item -->
 				<div class="col-lg-4 features_col">
-					<div class="features_item d-flex flex-column align-items-center justify-content-center text-center">
-						<div class="icon_container d-flex flex-column justify-content-end">
-							<img src="images/mailL.png" alt="">
-						</div>
-						<h3>correo@correo.com</h3>
-						<p></p>
-					</div>
+					<i class="fas fa-phone footindex"></i>
+					<h3 class="h3index">5651 1785</h3>
 				</div>
-				
-				<!-- Features Item -->
-				<div class="col-lg-4 features_col">
-					<div class="features_item d-flex flex-column align-items-center justify-content-center text-center">
-						<div class="icon_container d-flex flex-column justify-content-end">
-							<img src="images/telL.png" alt="">
+			</div>
+		</div>
+	</div>
+
+	<!-- Direccion Info -->
+						<div class="sidebar_section">
+							<div class="sidebar_contact_info">
+								
+								<ul>
+									<li><i class="fas fa-map-marked-alt lista"></i>  Rosa Trepadora 53, Molino de Rosas 
+									Ciudad de México, CDMX</li>
+								</ul>
+							</div>
 						</div>
-						<h3>5651 1785</h3>
-						<p></p>
+
+						<!-- Tel Info -->
+						<div class="sidebar_section">
+							<div class="sidebar_contact_info">
+									
+								<ul>
+									<li><i class="fas fa-envelope-open-text lista"></i>  serviciovelozmx@gmail.com</li>
+									<li><i class="fab fa-whatsapp lista"></i>  55 1298 6012</li>
+									<li><i class="fas fa-phone lista"></i>  5651 1785</li>
+								</ul>
+							</div>
+						</div>
+
 					</div>
-				</div>	
 
-	<!-- Footer -->
-
-	<footer class="footer">
 		<div class="container">
 			<div class="row footer_content d-flex flex-sm-row flex-column align-items-center">
 				<div class="col-sm-6 cr text-sm-left text-center">
@@ -285,3 +319,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 </body>
 
 </html>
+
+<script type="text/javascript">
+var service_id = 'my_mandrill';
+var template_id = 'feedback';
+var template_params = {
+	nombre: 'Carlos',
+	reply_email: 'serviciovelozmx@gmail.com',
+	mensaje: '¡Esto es increíble!'
+};
+
+emailjs.send (service_id, template_id, template_params);
+</script>
