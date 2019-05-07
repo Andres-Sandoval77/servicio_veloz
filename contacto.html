@@ -76,10 +76,10 @@
 		<div class="fs_menu_shapes"><img src="images/menu_shapes.png" alt=""></div>
 		<nav class="fs_menu_nav">
 			<ul class="fs_menu_list">
-				<li><a href="#"><span><span>I</span>Inicio</span></a></li>
-				<li><a href="#"><span><span>S</span>Servicios</span></a></li>
-				<li><a href="#"><span><span>P</span>Promociones</span></a></li>
-				<li><a href="#"><span><span>N</span>Nosotros</span></a></li>
+				<li><a href="index.html"><span><span>I</span>Inicio</span></a></li>
+				<li><a href="servicios.html"><span><span>S</span>Servicios</span></a></li>
+				<li><a href="promociones.html"><span><span>P</span>Promociones</span></a></li>
+				<li><a href="nosotros.html"><span><span>N</span>Nosotros</span></a></li>
 				<li><a href="#"><span><span>C</span>Contacto</span></a></li>
 			</ul>
 		</nav>
@@ -114,7 +114,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="home_social_container d-flex flex-row justify-content-end align-items-center">
+	<!--<div class="home_social_container d-flex flex-row justify-content-end align-items-center">
 		<ul class="home_social">
 			<li><a href="#"><i class="fab fa-pinterest trans_300"></i></a></li>
 			<li><a href="#"><i class="fab fa-facebook-f trans_300"></i></a></li>
@@ -123,7 +123,7 @@
 			<li><a href="#"><i class="fab fa-behance trans_300"></i></a></li>
 			<li><a href="#"><i class="fab fa-linkedin-in trans_300"></i></a></li>
 		</ul>
-	</div>	
+	</div>-->
 
 	<!-- Contact Content -->
 
@@ -135,7 +135,7 @@
 				<div class="col-lg-8">
 					<div class="contact_main_content">
 
-						<div class="contact_subtitle">Contactanos</div>
+						<div class="contact_subtitle">Escribenos</div>
 						
 						<!-- Contact Us Form -->
 						<div class="contact_form_container">
@@ -169,7 +169,7 @@
 						<!-- Direccion Info -->
 						<div class="sidebar_section">
 							<div class="sidebar_contact_info">
-								<div class="sidebar_title">Direccion</div>
+								<div class="sidebar_title">Dirección</div>
 								<ul>
 									<li><i class="fas fa-map-marked-alt lista"></i>  Rosa Trepadora 53, Molino de Rosas 
 									Ciudad de México, CDMX</li>
@@ -180,7 +180,7 @@
 						<!-- Tel Info -->
 						<div class="sidebar_section">
 							<div class="sidebar_contact_info">
-									<div class="sidebar_title">Mail, Whatsapp y Telefono</div>
+									<div class="sidebar_title">Correo electrónico, Whatsapp y Teléfono</div>
 								<ul>
 									<li><i class="fas fa-envelope-open-text lista"></i>  serviciovelozmx@gmail.com</li>
 									<li><i class="fab fa-whatsapp lista"></i>  55 1298 6012</li>
@@ -322,17 +322,4 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="plugins/easing/easing.js"></script>
 <script src="js/contact_custom.js"></script>
 </body>
-
 </html>
-
-<script type="text/javascript">
-var service_id = 'my_mandrill';
-var template_id = 'feedback';
-var template_params = {
-	nombre: 'Carlos',
-	reply_email: 'serviciovelozmx@gmail.com',
-	mensaje: '¡Esto es increíble!'
-};
-
-emailjs.send (service_id, template_id, template_params);
-</script>

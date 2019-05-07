@@ -16,6 +16,7 @@
 <link rel="stylesheet" type="text/css" href="styles/blog_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/blog_responsive.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
 </head>
 
 <style type="text/css">
@@ -69,14 +70,14 @@
 		<div class="fs_menu_shapes"><img src="images/menu_shapes.png" alt=""></div>
 		<nav class="fs_menu_nav">
 			<ul class="fs_menu_list">
-				<li><a href="#"><span><span>I</span>Inicio</span></a></li>
-				<li><a href="#"><span><span>S</span>Servicios</span></a></li>
-				<li><a href="#"><span><span>P</span>Promociones</span></a></li>
+				<li><a href="index.html"><span><span>I</span>Inicio</span></a></li>
+				<li><a href="servicios.html"><span><span>S</span>Servicios</span></a></li>
+				<li><a href="promociones.html"><span><span>P</span>Promociones</span></a></li>
 				<li><a href="#"><span><span>N</span>Nosotros</span></a></li>
-				<li><a href="#"><span><span>C</span>Contacto</span></a></li>
+				<li><a href="contacto.html"><span><span>C</span>Contacto</span></a></li>
 			</ul>
 		</nav>
-		<div class="fs_social_container d-flex flex-row justify-content-end align-items-center">
+		<!--<div class="fs_social_container d-flex flex-row justify-content-end align-items-center">
 			<ul class="fs_social">
 				<li><a href="#"><i class="fab fa-pinterest trans_300"></i></a></li>
 				<li><a href="#"><i class="fab fa-facebook-f trans_300"></i></a></li>
@@ -85,7 +86,7 @@
 				<li><a href="#"><i class="fab fa-behance trans_300"></i></a></li>
 				<li><a href="#"><i class="fab fa-linkedin-in trans_300"></i></a></li>
 			</ul>
-		</div>
+		</div>-->
 	</div>
 
 	<!-- Page Top -->
@@ -107,7 +108,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="home_social_container d-flex flex-row justify-content-end align-items-center">
+	<!--<div class="home_social_container d-flex flex-row justify-content-end align-items-center">
 		<ul class="home_social">
 			<li><a href="#"><i class="fab fa-pinterest trans_300"></i></a></li>
 			<li><a href="#"><i class="fab fa-facebook-f trans_300"></i></a></li>
@@ -116,7 +117,7 @@
 			<li><a href="#"><i class="fab fa-behance trans_300"></i></a></li>
 			<li><a href="#"><i class="fab fa-linkedin-in trans_300"></i></a></li>
 		</ul>
-	</div>	
+	</div>-->	
 
 	<!-- Blog Content -->
 
@@ -193,12 +194,12 @@
 								¡Escribenos!</div>
 
 						<div class="contact_form_container">
-							<form id="reply_form" action="post">
+							<form id="reply_form" action="https://script.google.com/macros/s/AKfycbyJtrfSP6Vd0VKwuIK1sHvS-o9zRCjAZyb-dYC1/exec" method="post" class="gform" data-email="serviciovelozmx@gmail.com">
 								<div>
-									<input id="contact_form_name" class="input_field contact_form_name" type="text" placeholder="Nombre" required="required" data-error="Name is required.">
-									<input id="contact_form_email" class="input_field contact_form_email" type="email" placeholder="E-mail" required="required" data-error="Valid email is required.">
-									<input id="contact_form_subject" class="input_field contact_form_subject" type="text" placeholder="Asunto" required="required" data-error="Subject is required.">
-									<textarea id="contact_form_message" class="text_field contact_form_message" name="message"  placeholder="Escribe un mensaje" rows="4" required data-error="Please, write us a message."></textarea>
+									<input id="contact_form_name" name="contact" class="input_field contact_form_name" type="text" placeholder="Nombre" required="required" data-error="Name is required.">
+									<input id="contact_form_email" name="email" class="input_field contact_form_email" type="email" placeholder="E-mail" required="required" data-error="Valid email is required.">
+									<input id="contact_form_subject" name="subject" class="input_field contact_form_subject" type="text" placeholder="Asunto" required="required" data-error="Subject is required.">
+									<textarea id="contact_form_message" name="message" class="text_field contact_form_message" name="message"  placeholder="Escribe un mensaje" rows="4" required data-error="Please, write us a message."></textarea>
 								</div>
 								<div>
 									<button id="contact_form_submit" type="submit" class="contact_submit_btn trans_300" value="Enviar">
