@@ -116,7 +116,7 @@ p a:active
 }
 p a:hover
 {
-	color: #FFFFFF;
+	color: #Ffffff;
 	background: #ffa07f;
 }
 p a:hover::after
@@ -717,7 +717,7 @@ section
 {
 	font-weight: 300;
 	line-height: 1.15;
-	color: #FFFFFF;
+	color: #Ffffff;
 }
 .main_slider_content h1 span
 {
@@ -725,9 +725,9 @@ section
 }
 .main_slider_content p
 {
-	font-size: 16px;
-	font-weight: 300;
-	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: 400;
+	color: #FF4200;
 	padding-left: 5px;
 	margin-top: 1px;
 }
@@ -905,7 +905,7 @@ section
 	font-weight: 600;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
-	color: #FF4200;
+	color: #FFffff;
 	line-height: 1.35;
 	margin-bottom: 116px;
 }
@@ -947,8 +947,9 @@ section
 }
 .about_text p
 {
-	color: #FFFFFF;
+	color: #FF4200;
 	margin-bottom: 0px;
+	font-size: 20px;
 }
 .about_text img
 {
@@ -1003,7 +1004,7 @@ section
 }
 .section_title_dark h2::before
 {
-	background: #111111;
+	background: #FFFFFF;
 }
 .testimonials_container
 {
@@ -1284,7 +1285,8 @@ section
 }
 .contact_text p
 {
-	color: #FF4200;
+	color: #Ff4200;
+	font-size: 20px; 
 }
 .contact_button
 {
