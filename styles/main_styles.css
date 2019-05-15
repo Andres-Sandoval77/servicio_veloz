@@ -1003,7 +1003,7 @@ section
 }
 .section_title_dark h2::before
 {
-	background: #ff4200;
+	background: #111111;
 }
 .testimonials_container
 {
