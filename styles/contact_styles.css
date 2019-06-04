@@ -839,19 +839,16 @@ section
 	margin-bottom: 12px;
 }
 .contact_form_name,
-.contact_form_email
+
 {
 	display: inline-block;
 	width: calc(50% - 15px);
 }
 .contact_form_name
 {
-	margin-right: -4px;
+	/*margin-right: -4px;*/
 }
-.contact_form_email
-{
-	margin-left: 30px;
-}
+
 .contact_form_subject
 {
 	display: block;
@@ -1132,4 +1129,10 @@ position:absolute;
 .cr p
 {
 	margin-bottom: 0px;
+}
+
+@media (max-width: 320px) {
+  .adapt-input {
+    size:150px;
+  }
 }
