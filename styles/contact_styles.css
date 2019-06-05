@@ -32,7 +32,7 @@
 1. Fonts
 ***********/
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600|Open+Sans:300,400,600,700,800');
+@import url('');
 
 /*********************************
 2. Body and some general stuff
@@ -839,19 +839,16 @@ section
 	margin-bottom: 12px;
 }
 .contact_form_name,
-.contact_form_email
+
 {
 	display: inline-block;
 	width: calc(50% - 15px);
 }
 .contact_form_name
 {
-	margin-right: -4px;
+	/*margin-right: -4px;*/
 }
-.contact_form_email
-{
-	margin-left: 30px;
-}
+
 .contact_form_subject
 {
 	display: block;
@@ -951,25 +948,19 @@ section
 /*********************************
 9. Google Map
 *********************************/
-
-#google_map
-{
-	width: 100%;
-	height: 510px;
-	margin-top: 120px;
+.map-container-2{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
 }
-.map_container
-{
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
+.map-container-2 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
 }
-#map
-{
-	width: 100%;
-	height: calc(100% + 30px);
-}
-	
 
 /*********************************
 10. Contact Sidebar
@@ -1138,4 +1129,10 @@ section
 .cr p
 {
 	margin-bottom: 0px;
+}
+
+@media (max-width: 320px) {
+  .adapt-input {
+    size:150px;
+  }
 }

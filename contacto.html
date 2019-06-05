@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,8 +16,29 @@
 <link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="styles/contact_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
 </head>
 
+<style type="text/css">
+	.footindex{
+		color: #ff4200 !important; 
+		font-size: 4em;
+		align-items: center;
+	}
+	.h3index{
+		color: #ffffff;
+	}
+	.lista{
+		color: #ff4200 !important; 
+		font-size: 2em;
+		align-items: center;
+	}
+	.features_col {
+		padding:5px !important;
+	}
+	
+</style>
 <body>
 
 <div class="super_container">
@@ -28,7 +50,7 @@
 		<!-- Logo -->
 		<div class="logo_container mr-auto">
 			<div class="logo">
-				<a href="#"><span>z</span>zeta<span>.</span></a>
+				<a href="index.html"><span>s</span>servicio veloz<span>.</span></a>
 			</div>
 		</div>
 
@@ -36,16 +58,16 @@
 		<nav class="main_nav justify-self-end">
 			<ul class="nav_items">
 				<li><a href="index.html"><span>Inicio</span></a></li>
-				<li><a href="services.html"><span>Servicios</span></a></li>
-				<li><a href="elements.html"><span>Precios</span></a></li>
-				<li><a href="blog.html"><span>Nosotros</span></a></li>
-				<li class="active"><a href="contact.html"><span>Contacto</span></a></li>
+				<li><a href="servicios.html"><span>Servicios</span></a></li>
+				<li><a href="promociones.html"><span>Promociones</span></a></li>
+				<li><a href="nosotros.html"><span>Nosotros</span></a></li>
+				<li class="active"><a href="contacto.html"><span>Contacto</span></a></li>
 			</ul>
 		</nav>
 
 		<!-- Hamburger -->
 		<div class="hamburger_container">
-			<span class="hamburger_text">Menu</span>
+			<span class="hamburger_text">Menú</span>
 			<span class="hamburger_icon"></span>
 		</div>
 
@@ -58,10 +80,10 @@
 		<div class="fs_menu_shapes"><img src="images/menu_shapes.png" alt=""></div>
 		<nav class="fs_menu_nav">
 			<ul class="fs_menu_list">
-				<li><a href="#"><span><span>I</span>Inicio</span></a></li>
-				<li><a href="#"><span><span>S</span>Servicios</span></a></li>
-				<li><a href="#"><span><span>P</span>Precios</span></a></li>
-				<li><a href="#"><span><span>N</span>Nosotros</span></a></li>
+				<li><a href="index.html"><span><span>I</span>Inicio</span></a></li>
+				<li><a href="servicios.html"><span><span>S</span>Servicios</span></a></li>
+				<li><a href="promociones.html"><span><span>P</span>Promociones</span></a></li>
+				<li><a href="nosotros.html"><span><span>N</span>Nosotros</span></a></li>
 				<li><a href="#"><span><span>C</span>Contacto</span></a></li>
 			</ul>
 		</nav>
@@ -82,7 +104,7 @@
 	<div class="home prlx_parent">
 
 		<!-- Parallax Background -->
-		<div class="home_background prlx" style="background-image:url(images/cabeza.jpg)"></div>
+		<div class="home_background prlx" style="background-image:url(images/resortes.png)"></div>
 		<div class="services_page_shapes" style="background-image:url(images/services_page_shapes.png)"></div>
 
 		<div class="container">
@@ -90,13 +112,13 @@
 				<div class="col-lg-6">
 					<div class="home_content">
 						<h1>Contactanos</h1>
-						<span>Escribenos y recibe una cotizacion</span>
+						<span>Escribenos mediante WhatsApp o envianos un correo electrónico para una cotización</span>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="home_social_container d-flex flex-row justify-content-end align-items-center">
+	<!--<div class="home_social_container d-flex flex-row justify-content-end align-items-center">
 		<ul class="home_social">
 			<li><a href="#"><i class="fab fa-pinterest trans_300"></i></a></li>
 			<li><a href="#"><i class="fab fa-facebook-f trans_300"></i></a></li>
@@ -105,7 +127,7 @@
 			<li><a href="#"><i class="fab fa-behance trans_300"></i></a></li>
 			<li><a href="#"><i class="fab fa-linkedin-in trans_300"></i></a></li>
 		</ul>
-	</div>	
+	</div>-->
 
 	<!-- Contact Content -->
 
@@ -117,26 +139,38 @@
 				<div class="col-lg-8">
 					<div class="contact_main_content">
 
-						<div class="contact_subtitle">Contactanos</div>
+						<div class="contact_subtitle">Escribenos</div>
 						
 						<!-- Contact Us Form -->
 						<div class="contact_form_container">
-							<form id="reply_form" action="post">
-								<div>
-									<input id="contact_form_name" class="input_field contact_form_name" type="text" placeholder="Nombre" required="required" data-error="Name is required.">
-									<input id="contact_form_email" class="input_field contact_form_email" type="email" placeholder="E-mail" required="required" data-error="Valid email is required.">
-									<input id="contact_form_subject" class="input_field contact_form_subject" type="text" placeholder="Asunto" required="required" data-error="Subject is required.">
-									<textarea id="contact_form_message" class="text_field contact_form_message" name="message"  placeholder="Escribe un mensaje" rows="4" required data-error="Please, write us a message."></textarea>
+							<form id="reply_form" action="https://script.google.com/macros/s/AKfycbyJtrfSP6Vd0VKwuIK1sHvS-o9zRCjAZyb-dYC1/exec" method="post" class="gform" data-email="serviciovelozmx@gmail.com">
+								<div class="container">
+									<div style="display:none" class="col-md-12 thankyou_message">
+ 										<!-- You can customize the thankyou message by editing the code below -->
+ 										<h2><em>Gracias</em> por contactarnos, en breve nos comunicaremos contigo.</h2>
+									</div>
+									<div class="col-md-12">	
+											<input id="contact_form_name" name="contact" class="input_field contact_form_name" type="text" placeholder="Nombre" required="required" data-error="Name is required.">
+									</div>
+									<div class="col-md-12">	
+											<input id="contact_form_email" name="email" class="input_field adap-input" type="email" placeholder="Correo electrónico"  required="required" data-error="Valid email is required.">
+									</div>
+									<div class="col-md-12">	
+											<input id="contact_form_subject" name="subject" class="input_field contact_form_subject" type="text" placeholder="Asunto" required="required" data-error="Subject is required.">
+									</div>
+									<div class="col-md-12">	
+											<textarea id="contact_form_message" name="message" class="text_field contact_form_message" placeholder="Escribe un mensaje" rows="4" required data-error="Please, write us a message."></textarea>
+									</div>
 								</div>
+
 								<div>
-									<button id="contact_form_submit" type="submit" class="contact_submit_btn trans_300" value="Submit">
-										send<img src="images/arrow_right.svg" alt="">
+									<button id="contact_form_submit" type="submit" class="contact_submit_btn trans_300" value="Enviar">
+										Enviar<img src="images/arrow_right.svg" alt="">
 									</button>
 								</div>
-
 							</form>
-						</div>
 
+						</div>
 					</div>
 				</div>
 				
@@ -144,70 +178,109 @@
 				<div class="col-lg-4">
 					<div class="contact_sidebar">
 						
-						<!-- Contact Info -->
+						<!-- Direccion Info -->
 						<div class="sidebar_section">
 							<div class="sidebar_contact_info">
-								<div class="sidebar_title">Direccion</div>
+								<div class="sidebar_title">Dirección</div>
 								<ul>
-									<li>Rosa Trepadora 53, Molino de Rosas 
-									<br>
+									<li><i class="fas fa-map-marked-alt lista"></i>  Rosa Trepadora 53, Molino de Rosas 
 									Ciudad de México, CDMX</li>
-									<li>contact@cocoontemplate.com</li>
-									<li>+5463 834 53 2245</li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- Tel Info -->
+						<div class="sidebar_section">
+							<div class="sidebar_contact_info">
+									<div class="sidebar_title">Correo electrónico, Whatsapp y Teléfono</div>
+								<ul>
+									<li><i class="fas fa-envelope-open-text lista"></i> serviciovelozmx@gmail.com</li>
+									<li><i class="fab fa-whatsapp lista"></i>  55 1298 6012</li>
+									<li><i class="fas fa-phone lista"></i>  5651 1785</li>
 								</ul>
 							</div>
 						</div>
 
 					</div>
 				</div>
-
-			</div>
-
-			<!-- Google Map Container -->
-
-			<div class="row">
-				<div class="col">
-					<div id="google_map">
-						<div class="map_container">
-							<div id="map"></div>
-						</div>
-					</div>
 				</div>
-			</div>
 
-		</div>
-	</div>
+			<!--Google map-->
+<br><center>
+<div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 500px">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.9524266060903!2d-99.19878928526546!3d19.371212486919234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d20025f5962625%3A0xfb135980fc3915f3!2sRosa+Trepadora+53%2C+Molino+de+Rosas%2C+01470+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses!2smx!4v1555439042140!5m2!1ses!2smx" width="800" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+</center>
 
 	<!-- Contact -->
-
+<br>
 	<div class="contact prlx_parent">
-		<div class="contact_background prlx" style="background-image:url(images/contact_background.jpg)"></div>
+		<div class="contact_background prlx" style="background-image:url(images/cabeza.jpg)"></div>
 		<div class="contact_shapes"><img src="images/contact_shape.png" alt=""></div>
 		<div class="container">
 			
 			<div class="row">
 				<div class="col-lg-6 offset-lg-3 text-center section_title contact_title">
-					<h2>let's work together<span>z</span></h2>
+					<h2>Te invitamos a ver nuestras promociones<span></span></h2>
 				</div>
 			</div>
 			
 			<div class="row">
 				<div class="col-lg-10 offset-lg-1 text-center contact_text">
-					<p>Dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum, quam tincidunt venen atis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum, quam tincidunt venenatis ultrices, est libero mattis ante, ac consectetur diam neque eget quam.</p>
+					<p>No dejes tu auto al final, mantenlo siempre funcionando correctamente. Visita nuestro apartado de promociones y dale mantenimiento a tu automovil al mejor precio y con la mejor calidad.</p>
 					<div class="button contact_button">
-						<a href="contact.html" class="d-flex flex-row align-items-center justify-content-center">contact<img src="images/arrow_right.svg" alt=""></a>
+						<a href="promociones.html" class="d-flex flex-row align-items-center justify-content-center">Promociones<img src="images/arrow_right.svg" alt=""></a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+</div>
+</div>
 
-	<!-- Footer -->
 
+
+<!-- Footer -->
+<br>
 	<footer class="footer">
+		<!-- Features -->
+	<center>
+	<div class="features">
+		<div class="container">
+			<div class="row align-items-end">
+
+				<!-- Features Item -->
+				<div class="col-lg-3 features_col">
+					<i class="fab fa-whatsapp footindex"></i>
+					<h3 class="h3index">55 1298 6012</h3>
+				</div>
+
+				<!-- Features Item -->
+				<div class="col-lg-3 features_col">
+					<i class="fas fa-envelope-open-text footindex"></i>
+					<h3 class="h3index">serviciovelozmx@gmail.com</h3>
+				</div>
+
+				<!-- Features Item -->
+				<div class="col-lg-3 features_col">
+					<i class="fas fa-map-marked-alt footindex"></i>
+					<h3 class="h3index">Rosa Trepadora 53, Molino de Rosas, Ciudad de México, CDMX</h3>
+				</div>
+
+
+				<!-- Features Item -->
+				<div class="col-lg-3 features_col">
+					<i class="fas fa-phone footindex"></i>
+					<h3 class="h3index">5651 1785</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	</center>
+
 		<div class="container">
 			<div class="row footer_content d-flex flex-sm-row flex-column align-items-center">
-				<div class="col-sm-6 cr text-sm-left text-center">
+				<div class="col-sm-12 cr text-sm-left text-center">
 					<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
@@ -244,5 +317,4 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="plugins/easing/easing.js"></script>
 <script src="js/contact_custom.js"></script>
 </body>
-
 </html>
