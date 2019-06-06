@@ -983,7 +983,9 @@ section
 }
 .contact_text p
 {
-	color: #FFFFFF;
+	color: #FF4200;
+	font-family: 'Franklin Gothic Medium', sans-serif;
+	font-size: 20px;
 }
 .contact_button
 {

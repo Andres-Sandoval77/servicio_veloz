@@ -81,7 +81,7 @@ ul
 }
 p
 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Franklin Gothic Medium', sans-serif;
 	font-size: 15px;
 	line-height: 2;
 	font-weight: 400;
@@ -1072,7 +1072,7 @@ section
 {
 	font-size: 15px;
 	font-weight: 400;
-	color: #ff4200;
+	color: #ffFFFF;
 	margin-top: -5px;
 }
 .test_quote
@@ -1285,7 +1285,7 @@ section
 }
 .contact_text p
 {
-	color: #Ff4200;
+	color: #FF4200;
 	font-size: 20px; 
 }
 .contact_button
