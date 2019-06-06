@@ -1131,8 +1131,3 @@ position:absolute;
 	margin-bottom: 0px;
 }
 
-@media (max-width: 320px) {
-  .adapt-input {
-    size:150px;
-  }
-}
